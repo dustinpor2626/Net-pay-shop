@@ -1,0 +1,371 @@
+/*
+%
+%
+%homepage.php
+%
+%
+*/
+
+#top_div{
+    background-color:dodgerblue;
+    border-radius:5px 4px 10px 2px;
+    height:60px;
+    width:100%;
+    display:inline-block;
+ 
+}
+
+#nps_img{
+    height:100%;
+    width:65%;
+    display:inline-block;
+    margin-left:20px
+   
+    
+}
+#search_box{   
+    height:30px;
+    border-radius:10px;
+    width:600px;
+    display:inline-block;
+    float:right;
+    margin-top:15px;
+}
+
+#home_img{
+    height:38px;
+    width:38px;
+    display:inline-block;
+    float:right;
+    margin-right:20px;
+    margin-top:12px;
+    
+}
+
+#cart_img{
+    height:43px;
+    width:43px;
+    display:inline-block;
+    float:right;
+    margin-right:20px;
+    margin-top:9px;
+
+}
+
+
+#login_img{
+    height:37px;
+    width:37px;
+    display:inline-block;
+    float:right;
+    margin-right:50px;
+    margin-top:12px;
+    
+}
+
+#search_button{
+    height:30px;
+    width:90px;
+    display:inline-block;
+    float:right;
+    margin-right:100px;
+    margin-top:18px;
+    background-color:#B71F68;
+    border-radius:10px;
+    
+}
+
+#option{
+    height:100px;
+    width:100%;
+    background-color:red;
+     margin-top:60px;
+}
+
+
+#top_div ul li{
+ display:inline-block;
+    float:right;
+    padding-left:50px;
+    padding-right:150px;
+}
+
+#top_div ul{
+margin:8px;
+}
+
+
+#front_img
+{
+    width:500%;
+    height:270px;
+    margin-top:120px;
+    display:inline-block;
+
+}
+
+@keyframes slide
+{
+    0% {left:0%;}
+    
+    20% {left:0%;}
+    
+    25% {left:-20%;}
+    
+    45% {left:-20%;}
+    
+    50% {left:-40%}
+    
+    70% {left:-40%}
+    
+    75% {left:-60%}
+    
+    95% {left:-60%}
+    
+    100% {left:-60%}
+    
+    
+    
+}
+
+#front_img img
+{
+    float:left;
+    position:relative;
+    height:100%;
+    width:20%;
+    animation-name: slide;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay:0s;
+}
+
+
+#groceries{
+    height:230px;
+    margin-top:50px;
+    
+}
+
+ #groceries_img{
+    display:inline-block;
+    height:95%;
+    width:53%;
+     background-color:white;
+     margin-right:200px;
+     padding-left:10px;
+     padding-top:10px;
+     float:right;
+     
+}
+
+body{
+    background-color:#f1f3f6;
+}
+
+
+.bottom{
+height:250px;
+    background-color:#212121;
+    margin-top:20px;
+    border-radius:10px;
+}
+
+.bottom div{
+    margin-top:0px;
+}
+
+.bottom p{
+align-content: center;
+    padding:30px 90px;
+    color:white;
+}
+
+.bottom b{
+    color:aquamarine;
+}
+
+
+#groceries_img img:hover{
+    position:relative;
+    border-style:groove;
+ 
+}
+
+@keyframes make_large
+{
+    0%{height:95%;width:24%}
+    
+    100%{height:95.5%;width:24.3%}
+}
+
+
+
+
+.add_flip
+{
+    perspective: 800;
+    transform-style: preserve-3d;
+    animation-name:flip;
+    animation-duration:0.5s;
+    animation-timing-function: linear;
+    animation-play-state: running;
+}
+
+@keyframes flip
+{
+    from{transform: rotateY(0deg);}
+    
+    to {transform:rotateY(180deg);}
+}
+/*
+%
+%
+%product_desc.php
+%
+%
+*/
+
+#img_container{
+    
+    height:85%;
+    width:45%;
+    display:inline-block;
+    padding-top:30px;
+}
+
+#image{
+    
+    height:60%;
+    width:60%;
+    margin:180px;
+}
+
+#content{
+    height:90%;
+    width:55%;
+    display:inline-block;
+    float:right;
+}
+
+#image img {
+
+    border-radius:5px;
+
+}
+
+#content p{
+    
+    padding-top:150px;
+    font-size:40px;
+    margin-right:200px;
+    
+}
+
+
+#price{
+    
+    height:50px;
+    width:150px;
+}
+
+/*
+*
+*
+cart.php
+*
+*
+*/
+
+
+#cart_body{
+
+    background-color:firebrick;
+    height:600px;
+    
+
+}
+
+#table_content{
+
+    margin-top:100px;
+
+}
+
+
+#quantity{
+    
+    background-color:beige;
+    border-radius:5px;
+    height:30px;
+    width:100px;
+    float:right;
+    
+}
+
+#remove{
+height:100%;
+    width:33%;
+    display:inline-block;
+    float:left;
+}
+
+#add{
+    height:100%;
+    width:33%;
+    display:inline-block;
+    float:right;
+    border-radius:15px;
+}
+
+#quantity_content{
+
+height:100%;
+    width:34%;
+    text-align: center;
+    display:inline-block;
+    
+}
+
+
+/*
+*
+*login.php
+*
+*/
+
+#form1{
+   
+    display: inline-block;
+}
+
+#form2{
+    float:right;
+    padding: 250 100 10 10;
+    display: 
+}
+
+fieldset{
+    padding: 20 50 20 20;
+}
+
+
+/*
+ *
+ *
+groceries.php
+ *
+ *
+ */
+
+
+table img
+{
+    height:200px;
+    width:auto;
+    border-radius:5px;
+    box-shadow: 5px 3px 5px black;
+}
+
+
