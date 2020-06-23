@@ -4,7 +4,7 @@ This is a localhost dummy E-commerce Site.
 
 Products are divided according to their type.
 
-User can select product and can store in their cart.
+User can select product and can store in their cart and compute Price.
 
 ---
 
